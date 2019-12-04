@@ -4,6 +4,9 @@ Binary Exploitation
 ## Description:
 > This should be easy. Overflow the correct buffer in this program and get a flag.
 
+## Hint:
+> Find a way to trigger the flag to printIf you try to do the math by hand, maybe try and add a few more characters. Sometimes there are things you aren't expecting.
+
 ### Files in shell: vuln.c, vuln, flag.txt
 
 ### vuln.c
