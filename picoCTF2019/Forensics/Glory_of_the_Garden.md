@@ -9,6 +9,8 @@ Forensics
 
 ### Files in shell: garden.jpg
 
+## Solving:
+
 Trying to do
 ```c
 cat garden.jpg
