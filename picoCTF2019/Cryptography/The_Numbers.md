@@ -9,6 +9,7 @@ Cryptography
 
 ### Files in shell: the_numbers.png
 
+
 ## Solving:
 
 ```c
@@ -25,8 +26,7 @@ p i c o c t f { t h e n u m b e r s m a s o n }
 ----------------------------------------------------------------------------------
 echo p i c o c t f { t h e n u m b e r s m a s o n } | tr a-z A-Z | tr  -d ' '
 PICOCTF{THENUMBERSMASON}
-
-
+```
 
 ### Flag:
 ```c
