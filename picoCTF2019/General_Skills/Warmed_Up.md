@@ -10,13 +10,13 @@ General Skills
 ## Solving:
 Instead of putting it through a converter I used this in bash (taking out the '0x'):
 ```c
-echo "obase=10; ibase=16; 3D" | bc
-27
+echo 'obase=10; ibase=16; 3D' | bc
+61
 ```
 
 
 ### Flag:
 ```c
-picoCTF{27}
+picoCTF{61}
 ```
 
