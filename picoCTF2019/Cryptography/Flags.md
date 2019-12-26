@@ -8,7 +8,7 @@ Cryptography
 > The flag is in the format PICOCTF{}
 
 ## Files:
-![flags] (flags.png)
+![flag] (flag.png)
 
 ## Solving:
 
