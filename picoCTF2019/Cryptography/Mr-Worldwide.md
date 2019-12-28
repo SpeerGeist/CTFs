@@ -64,6 +64,7 @@ for i in range(len(lat)):
 for i in range(len(names)):
     firstLetters.append(names[i][0])
 def flag(firstLetters):
+    firstLetters.insert(6,'_')
     firstLetters = ''.join(firstLetters)
     print('Your flag is:')
     print('picoCTF{' + firstLetters + '}')
