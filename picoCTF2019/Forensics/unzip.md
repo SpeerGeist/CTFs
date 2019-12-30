@@ -13,6 +13,6 @@ Downloading the flag.zip file we can unzip using the unzip command in linux. Aft
 
 ### Flag: 
 
-```c
+```
 picoCTF{unz1pp1ng_1s_3a5y}
 ```
