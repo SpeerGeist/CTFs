@@ -15,7 +15,7 @@ Cryptography
 ## Solving:
 
 With this we can easily just search for each coordinate in maps but for fun I wrote a python script to take the message and output the flag (this was longer but it works).
-```c
+```python
 #! usr/bin/env Python3
 
 import re
@@ -76,6 +76,6 @@ An issue arose with the 4th coordinate that returned 'Eminoenue' an inner-city t
 
 ### Flag: 
 
-```c
+```
 picoCTF{KODIAK_ALASKA}
 ```
