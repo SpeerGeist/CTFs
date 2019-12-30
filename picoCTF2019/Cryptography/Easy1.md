@@ -9,7 +9,7 @@ Cryptography
 > Please use all caps for the message.
 
 ## Table:
-```c
+```
     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
    +----------------------------------------------------
 A | A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -45,7 +45,7 @@ Z | Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
 
 For this there are many online tools but I decided to create a python script to complete it.
 
-```c
+```python
 # /usr/bin/env Python3
 
 import time
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     print('picoCTF{' + decrypt(string, key) + '}')
 ```
 
-```c
+```
 Input encrypted text: 
 ufjkxqzqunb
 Input known key: 
@@ -94,6 +94,6 @@ picoCTF{CRYPTOISFUN}
 
 ### Flag: 
 
-```c
+```
 picoCTF{CRYPTOISFUN}
 ```
