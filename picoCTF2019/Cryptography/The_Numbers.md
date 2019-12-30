@@ -12,16 +12,16 @@ Cryptography
 
 ## Solving:
 
-```c
+```bash
 eog the_numbers.png
 ```
 The image contains the numbers in the following format:
-```c
+```
 16 9 3 15 3 20 6 { 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14 }
 ```
 
 By knowing that the flag is in the format picoCTF{....} we can see it's just a A1Z26 cipher and using a site like https://planetcalc.com/4884/ we can input this and get:
-```c
+```bash
 p i c o c t f { t h e n u m b e r s m a s o n }
 ----------------------------------------------------------------------------------
 echo p i c o c t f { t h e n u m b e r s m a s o n } | tr a-z A-Z | tr  -d ' '
@@ -29,6 +29,6 @@ PICOCTF{THENUMBERSMASON}
 ```
 
 ### Flag:
-```c
+```
 PICOCTF{THENUMBERSMASON}
 ```
