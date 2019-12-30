@@ -9,14 +9,14 @@ General Skills
 
 ## Solving:
 Exactly like 'Warmed_Up' we can modify this bash command to go from dec to bin:
-```c
+```bash
 echo 'obase=2; ibase=1; 42' | bc
 101010
 ```
 
 
 ### Flag:
-```c
+```
 picoCTF{101010}
 ```
 
