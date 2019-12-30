@@ -11,7 +11,7 @@ Cryptography
 
 As the description suggests this is a simple ROT13 or Caesar cipher that I have a quick bash script to decrypt. (This will ignore any punctuation or numbers and produce all lowercase).
 This could have been done online in a second also.
-```c
+```bash
 #!/bin/sh
 read -p "Enter encoded caesar cipher: " message
 read -p "How many iterations do you want to force? " number
@@ -56,6 +56,6 @@ abg_gbb_onq_bs_n_ceboyrz
 
 ### Flag: 
 
-```c
+```
 picoctf{not_too_bad_of_a_problem} 
 ```
