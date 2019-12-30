@@ -10,10 +10,10 @@ General Skills
 ## Solving:
 Quick bash code to convert hex to ASCII:
 
-```c
+```bash
 echo 0x70 | xxd -r -p
 p
 ```
 ### Flag:
-```c
+```
 picoCTF{p}
