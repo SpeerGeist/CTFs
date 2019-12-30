@@ -10,7 +10,7 @@ Cryptography
 ## Solving:
 
 So with this, there are loads of online caesar brute force tools. But for fun here's a bash script I've put together for this challenge.
-```c
+```bash
 #!/bin/bash
 read -p "Enter encoded caesar cipher: " message
 read -p "How many iterations do you want to force? " number
@@ -27,7 +27,7 @@ done
 ```
 Resulting in...
 
-```c
+```bash
 Enter encoded caesar cipher: picoCTF{zolppfkdqeboryfzlktjxksyyl}
 How many iterations do you want to force? 25
 
@@ -68,6 +68,6 @@ The only result looking somewhat in English is a +3 Caesar Cipher, our flag.
 
 ### Flag: 
 
-```c
+```
 picoCTF{crossingtherubiconwmanvbbo}
 ```
