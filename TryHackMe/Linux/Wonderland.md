@@ -63,7 +63,7 @@ We can see where this is going. Each subsiquent directory contains more of the d
 ![secondpage](https://i.imgur.com/fZWakQr.png)
 
 Looking immediately at the source we seem what could be some credentials
->! alice:HowDothTheLittleCrocodileImproveHisShiningTail
+>! Spoiler alice:HowDothTheLittleCrocodileImproveHisShiningTail
 
 
  We can try this with the SSH service that is running
@@ -391,7 +391,7 @@ hatter@wonderland:/home/hatter$ cat password.txt
 ***************************
 ```
 
->! hatter:WhyIsARavenLikeAWritingDesk?
+>! Spoiler hatter:WhyIsARavenLikeAWritingDesk?
 
 
 I had to exit the original SSH session here and rejoin as hatter with the above credentials. hatter had no sudo credentials so I ran linpeas.sh that was still in the /tmp/ directory.
@@ -424,10 +424,10 @@ Box Done.
 
 ### User Flag: 
 
->! thm{"Curiouser and curiouser!"}
+>! Spoiler thm{"Curiouser and curiouser!"}
 
 
 
 ### Root Flag:
 
->! thm{Twinkle, twinkle, little bat! How I wonder what you’re at!}
+>! Spoiler thm{Twinkle, twinkle, little bat! How I wonder what you’re at!}
