@@ -63,10 +63,14 @@ We can see where this is going. Each subsiquent directory contains more of the d
 ![secondpage](https://i.imgur.com/fZWakQr.png)
 
 Looking immediately at the source we seem what could be some credentials
+
+
 <details>
  <summary>Alice Credentials</summary>
- Spoiler alice:HowDothTheLittleCrocodileImproveHisShiningTail
+ alice:HowDothTheLittleCrocodileImproveHisShiningTail
 </details>
+
+
 
  We can try this with the SSH service that is running
 
@@ -393,8 +397,10 @@ hatter@wonderland:/home/hatter$ cat password.txt
 ***************************
 ```
 
->! Spoiler hatter:WhyIsARavenLikeAWritingDesk?
-
+<details>
+ <summary>hatter Credentials</summary>
+ hatter:WhyIsARavenLikeAWritingDesk?
+</details>
 
 I had to exit the original SSH session here and rejoin as hatter with the above credentials. hatter had no sudo credentials so I ran linpeas.sh that was still in the /tmp/ directory.
 LinPeas showed that Perl is accessible as a capability. I read an article recently on capabilities [here](https://www.hackingarticles.in/linux-privilege-escalation-using-capabilities/)
@@ -426,10 +432,15 @@ Box Done.
 
 ### User Flag: 
 
->! Spoiler thm{"Curiouser and curiouser!"}
-
+<details>
+ <summary>User Flag</summary>
+ thm{"Curiouser and curiouser!"}
+</details>
 
 
 ### Root Flag:
 
->! Spoiler thm{Twinkle, twinkle, little bat! How I wonder what you’re at!}
+<details>
+ <summary>Root Flag</summary>
+ thm{Twinkle, twinkle, little bat! How I wonder what you’re at!}
+</details>
