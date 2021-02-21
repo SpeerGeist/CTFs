@@ -63,8 +63,10 @@ We can see where this is going. Each subsiquent directory contains more of the d
 ![secondpage](https://i.imgur.com/fZWakQr.png)
 
 Looking immediately at the source we seem what could be some credentials
->! Spoiler alice:HowDothTheLittleCrocodileImproveHisShiningTail
-
+<details>
+ <summary>Alice Credentials</summary>
+ Spoiler alice:HowDothTheLittleCrocodileImproveHisShiningTail
+</details>
 
  We can try this with the SSH service that is running
 
