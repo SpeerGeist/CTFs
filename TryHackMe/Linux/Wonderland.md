@@ -1,6 +1,6 @@
 # Wonderland - Medium
 
-![Wonderland][https://i.imgur.com/rhvJ8ft.jpg] 
+![Wonderland](https://i.imgur.com/rhvJ8ft.jpg)
 
 ## Hints:
 > Everything is upside down here.
@@ -27,7 +27,7 @@ PORT   STATE SERVICE REASON         VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 Since it seems to be running a http server we can navigate to that. It shows the page:
-![firstpage][https://i.imgur.com/j8sbaR5.png]
+![firstpage](https://i.imgur.com/j8sbaR5.png)
 
 After downloading the image I found it includes a hint.txt file. Using steghide to extract the file it contained: 
 > follow the r a b b i t
