@@ -70,7 +70,7 @@ class VaultDoor1 {
 ```
 
 ## Solving:
-There was a couple ways you could solve this. Both mainly using find and replace. You could erase all above the return call and then replace the indents and password.charAt( with null. Then bash ```cat vaultdoor1.txt | sort -n ``` which will give you a verticle display of the password. Not practical to copy the flag though so a very quick-to-do python script would be easier (Using find a replace for quick formatting. 
+There was a couple ways you could solve this. Both mainly using find and replace. You could erase all above the return call and then replace the indents and password.charAt( with null. Then bash ```cat vaultdoor1.txt | sort -n ``` which will give you a verticle display of the password. Not practical to copy the flag though so a very quick-to-do python script would be easier (Using find and replace for quick formatting. 
 
 ```python
 #!/usr/bin/env Python3
