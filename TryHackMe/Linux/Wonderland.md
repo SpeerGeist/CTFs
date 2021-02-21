@@ -63,7 +63,7 @@ We can see where this is going. Each subsiquent directory contains more of the d
 ![secondpage](https://i.imgur.com/fZWakQr.png)
 
 Looking immediately at the source we seem what could be some credentials
-> alice:HowDothTheLittleCrocodileImproveHisShiningTail
+>! alice:HowDothTheLittleCrocodileImproveHisShiningTail
 
 
  We can try this with the SSH service that is running
@@ -388,10 +388,10 @@ drwxrwxr-x 3 hatter hatter 4096 May 25  2020 .local
 -rw-r--r-- 1 hatter hatter  807 May 25  2020 .profile
 -rw------- 1 hatter hatter   29 May 25  2020 password.txt
 hatter@wonderland:/home/hatter$ cat password.txt 
-WhyIsARavenLikeAWritingDesk?
+***************************
 ```
 
-> hatter:WhyIsARavenLikeAWritingDesk?
+>! hatter:WhyIsARavenLikeAWritingDesk?
 
 
 I had to exit the original SSH session here and rejoin as hatter with the above credentials. hatter had no sudo credentials so I ran linpeas.sh that was still in the /tmp/ directory.
