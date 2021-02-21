@@ -58,9 +58,9 @@ http://10.10.40.120/img (Status: 301)
 http://10.10.40.120/r (Status: 301)
 ```
 
-We can see where this is going. Each subsiquent directory contains more of the dialogue until we get to ```http://10.10.40.120/r/a/b/b/i/t/.
+We can see where this is going. Each subsiquent directory contains more of the dialogue until we get to ```http://10.10.40.120/r/a/b/b/i/t/```.
 
-![secondpage][https://i.imgur.com/fZWakQr.png]
+![secondpage](https://i.imgur.com/fZWakQr.png)
 
 Looking immediately at the source we seem what could be some credentials
 > alice:HowDothTheLittleCrocodileImproveHisShiningTail
