@@ -465,6 +465,6 @@ The End
 
 flag: ************************
 weasker@umbrella_corp:~$ 
-
+```
 
 Overall, I didn't feel like this box was a medium difficulty. It was a long box just because of all the decoding you had to do. But it was a nice narrative and I enjoyed it nonetheless. 
